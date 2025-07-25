@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inputFragment"
+    tools:ignore="UnusedNavigation">
+
+    <!-- Input Fragment - Entry point for user data input -->
+    <fragment
+        android:id="@+id/inputFragment"
+        android:name="com.example.userinfotask.presentation.fragment.InputFragment"
+        android:label="Input User Information"
+        tools:layout="@layout/fragment_input">
+        
+        <!-- Navigation action to display fragment -->
+        <action
+            android:id="@+id/action_inputFragment_to_displayFragment"
+            app:destination="@id/displayFragment"
+            app:popUpTo="@id/inputFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <!-- Display Fragment - Shows list of all users -->
+    <fragment
+        android:id="@+id/displayFragment"
+        android:name="com.example.userinfotask.presentation.fragment.DisplayFragment"
+        android:label="User List"
+        tools:layout="@layout/fragment_display" />
+
+</navigation> 
