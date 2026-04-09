@@ -214,13 +214,3 @@ app/src/main/java/com/example/userinfotask/
 - **Testing Ready**: Architecture supports unit testing
 - **Maintainable Code**: Clear structure and naming conventions
 
-## Contact Information
-
-**Developer**: Senior Android Developer  
-**Email**: [Your Email]  
-**LinkedIn**: [Your LinkedIn]  
-**GitHub**: [Your GitHub]
-
----
-
-*This project demonstrates professional Android development practices suitable for senior-level positions. The codebase is production-ready and follows industry best practices for maintainability, scalability, and testability.* 
